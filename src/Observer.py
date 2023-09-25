@@ -5,7 +5,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 FILE_SIZE = 20_000_000
-DIR_TO_WATCH = "workspace/camera/VideoFile"
+DIR_TO_WATCH = "./VideoFile"
 
 verbose = print
 # def verbose(x):
